@@ -1,26 +1,10 @@
-[
-  {
-    "id": "template-provider",
-    "name": "Template Provider",
-    "description": "A starter template for creating Nuvio providers.",
-    "version": "1.0.0",
-    "author": "Your Name",
-    "supportedTypes": [
-      "movie",
-      "tv"
-    ],
-    "filename": "providers/template.js",
-    "enabled": false,
-    "logo": "",
-    "contentLanguage": [
-      "en"
-    ],
-    "formats": [
-      "mp4",
-      "mkv"
-    ],
-    "limited": false,
-    "disabledPlatforms": [],
-    "supportsExternalPlayer": true
-  }
-]
+{
+  "id": "my-hdhub-cine-scraper",
+  "name": "My HDHub Cineby Cineflix Direct",
+  "description": "Scrapes direct HTTPS mp4/mkv from HDHub, Cineby, Cineflix 2026",
+  "version": "1.0.0",
+  "author": "Underground",
+  "supportedTypes": ["movie", "tv"],
+  "filename": "providers/hdhub-cine-scraper.js",
+  "enabled": true
+}
