@@ -1,10 +1,14 @@
 {
-  "id": "my-hdhub-cine-scraper",
-  "name": "My HDHub Cineby Cineflix Direct",
-  "description": "Scrapes direct HTTPS mp4/mkv from HDHub, Cineby, Cineflix 2026",
+  "id": "com.underground.hdhub-cine-scraper",
+  "name": "My HDHub Cineby Cineflix Direct Streams",
+  "description": "Scrapes direct HTTPS mp4/mkv links from HDHub, Cineby, Cineflix and similar sites 2026",
   "version": "1.0.0",
-  "author": "Underground",
+  "author": "Underground Operator",
   "supportedTypes": ["movie", "tv"],
   "filename": "providers/hdhub-cine-scraper.js",
-  "enabled": true
+  "enabled": true,
+  "logo": "https://raw.githubusercontent.com/yoruix/nuvio-providers/refs/heads/main/logo.png",
+  "contentLanguage": ["en", "hi"],
+  "formats": ["mp4", "mkv"],
+  "limited": false
 }
